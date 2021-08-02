@@ -28,7 +28,7 @@ class WatermarkMap
     public function __construct(Hsv $hsv)
     {
         $this->hsv = $hsv;
-        $this->path = storage_path('app/public/watermarks/');
+        $this->path = public_path('watermarks/');
     }
 
     /**
